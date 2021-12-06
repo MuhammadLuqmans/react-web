@@ -1,0 +1,19 @@
+
+
+@media screen and ( min-width:1060px) {
+    .Mobile_Nav{
+        display: none;
+    }
+    .deskTop_Nav{
+        display: block;
+    }
+}
+
+@media screen and ( max-width:1060px) {
+    .Mobile_Nav{
+        display: block;
+    }
+    .deskTop_Nav{
+        display: none;
+    }
+}
